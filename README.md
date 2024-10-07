@@ -22,7 +22,7 @@ Para el registro de la informacion segun la indicacion se implementaron procedim
 
 ![image](https://github.com/user-attachments/assets/4647463c-9161-4278-a86e-dd563af88f5d)
 
-Finalmente la implemantacion se diseño en base a ar arquitectura hexagonal un patron de diseño que tiene como idea principal la separacion de responsabilidades facilmente intercambiable, independiente de las tecnologias 
+Finalmente la implemantacion se diseño en base a  arquitectura hexagonal un patron de diseño que tiene como idea principal la separacion de responsabilidades facilmente intercambiable, independiente de las tecnologias 
 
 ![image](https://github.com/user-attachments/assets/63e7772c-dd54-4a67-b3f7-3cad2232eff6)
 
