@@ -6,14 +6,14 @@
         public string phone { get; set; }
         public string address { get; set; }
 
-        public string nameMunicipality { get; set; }
+        public int idMunicipality { get; set; }
 
-        public UserCreateRequest(string name = "", string phone = "", string address = "", string nameMunicipality = "")
+        public UserCreateRequest(string name = "", string phone = "", string address = "", int idMunicipality = 0)
         {
             this.name = name;
             this.phone = phone;
             this.address = address;
-            this.nameMunicipality = nameMunicipality;
+            this.idMunicipality = idMunicipality;
         }
     }
 }

@@ -23,9 +23,9 @@ namespace userApplication.Infrastructure.adapters.input
         }
 
         [HttpPost("create")]
-        public IActionResult createUser([FromBody] UserCreateRequest request)
+        public async Task<IActionResult> createUser([FromBody] UserCreateRequest request)
         {
-            return StatusCode(201, _mapper.Map<UserCreateResponse>(serviceport.saveUser(_mapper.Map<User>(request))));
+            return StatusCode(201, _mapper.Map<UserCreateResponse>( await serviceport.saveUser(_mapper.Map<User>(request))));
 
         }
     }

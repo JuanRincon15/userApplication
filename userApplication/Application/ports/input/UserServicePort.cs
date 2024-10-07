@@ -4,6 +4,6 @@ namespace userApplication.Application.ports.input
 {
     public interface UserServicePort
     {
-        public User saveUser(User user);
+        public Task<User> saveUser(User user);
     }
 }

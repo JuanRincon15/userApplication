@@ -13,7 +13,7 @@ namespace userApplication.Application.service
             this.persistenceport = persistenceport;
         }
 
-        public User saveUser(User user)
+        public Task<User> saveUser(User user)
         {
             return persistenceport.saveUserDB(user);
         }

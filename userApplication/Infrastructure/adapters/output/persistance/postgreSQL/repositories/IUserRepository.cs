@@ -4,6 +4,6 @@ namespace userApplication.Infrastructure.adapters.output.persistance.postgreSQL.
 {
     public interface IUserRepository
     {
-        Task<bool> insertUser(User user);
+        Task<int> insertUser(User user);
     }
 }

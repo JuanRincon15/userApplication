@@ -4,6 +4,6 @@ namespace userApplication.Application.ports.output
 {
     public interface UserPersistencePort
     {
-        public User saveUserDB(User user);
+        public Task<User> saveUserDB(User user);
     }
 }
