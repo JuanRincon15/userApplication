@@ -8,3 +8,22 @@ obedeciendo al modelo se construyeron  4 tablas una de usuarios y tablas paramet
 
 ![image](https://github.com/user-attachments/assets/c7da2f1a-608d-4619-a63b-f3d8c6dfca34)
 
+
+## Backend de la aplicacion 
+se expusieron 4 servicios para la el registro de los entidades modeladas pais, departamento, municipio y usuario con todos sus datos relacionados
+
+![image](https://github.com/user-attachments/assets/3681bbf5-bf79-400b-aeec-d17da44e0ea5)
+
+![image](https://github.com/user-attachments/assets/e051bac3-91fa-4454-961e-e6ba2d848c21)
+
+Para el registro de la informacion segun la indicacion se implementaron procedimientos almacenados para el registro de la informacion
+
+![image](https://github.com/user-attachments/assets/8ac4211c-5666-4385-b325-171e0b7c604a)
+
+![image](https://github.com/user-attachments/assets/4647463c-9161-4278-a86e-dd563af88f5d)
+
+
+
+
+
+ 
