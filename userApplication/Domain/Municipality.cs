@@ -7,9 +7,9 @@ namespace userApplication.Domain
         public int id { get; set; }
         public string name { get; set; }
 
-        public string idepartment { get; set; }
+        public int idepartment { get; set; }
 
-        public Municipality(int id, string name, string idepartment)
+        public Municipality(int id= 0, string name= "", int idepartment = 0)
         {
             this.id = id;
             this.name = name;

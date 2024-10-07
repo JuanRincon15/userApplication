@@ -14,12 +14,15 @@ builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddScoped<IUserRepository,UserRepository>();
 builder.Services.AddScoped<ICountryRepository,CountryRepository>();
 builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();
+builder.Services.AddScoped<IMunicipalityRepository,MunicipalityRepository>();
 builder.Services.AddScoped<UserPersistencePort, userPersistanceAdapter>();
 builder.Services.AddScoped<CountryPersistencePort, CountryPersistanceAdapter>();
 builder.Services.AddScoped<DepartmentPersistencePort, DepartmentPersistanceAdapter>();
+builder.Services.AddScoped<MunicipalityPersistencePort, MunicipalityPersistanceAdapter>();
 builder.Services.AddScoped<UserServicePort, userService>();
 builder.Services.AddScoped<CountyServicePort, countryService>();
 builder.Services.AddScoped<DepartmentServicePort,DepartmentService>();
+builder.Services.AddScoped<MunicipalityServicePort, MunicipalityService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
