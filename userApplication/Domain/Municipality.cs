@@ -1,14 +1,19 @@
-﻿namespace userApplication.Domain
+﻿using userApplication.Infrastructure.adapters.output.persistance.postgreSQL.repositories;
+
+namespace userApplication.Domain
 {
     public class Municipality
     {
-        public string id { get; set; }
+        public int id { get; set; }
         public string name { get; set; }
 
-        public Municipality(string id, string name)
+        public string idepartment { get; set; }
+
+        public Municipality(int id, string name, string idepartment)
         {
             this.id = id;
             this.name = name;
+            this.idepartment = idepartment;
         }
     }
 }

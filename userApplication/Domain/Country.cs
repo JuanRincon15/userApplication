@@ -7,7 +7,7 @@
 
         public List<Department> departments { get; set; }
 
-        public Country(int id, string name, List<Department> departments)
+        public Country(int id = 0, string name = "", List<Department> departments = null)
         {
             this.id = id;
             this.name = name;

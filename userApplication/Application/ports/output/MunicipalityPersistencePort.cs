@@ -4,6 +4,6 @@ namespace userApplication.Application.ports.output
 {
     public interface MunicipalityPersistencePort
     {
-        public Municipality saveMunicipalityDB(Municipality municipality);
+        public Task<Municipality> saveMunicipalityDB(Municipality municipality);
     }
 }

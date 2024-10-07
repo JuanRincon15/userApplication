@@ -4,6 +4,6 @@ namespace userApplication.Application.ports.input
 {
     public interface MunicipalityServicePort
     {
-        Municipality saveMunicipality(Municipality municipality);
+        Task<Municipality> saveMunicipality(Municipality municipality);
     }
 }

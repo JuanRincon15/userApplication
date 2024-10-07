@@ -4,6 +4,6 @@ namespace userApplication.Application.ports.output
 {
     public interface DepartmentPersistencePort
     {
-        public Department saveDepartmentDB(Department department);
+        public Task<Department> saveDepartmentDB(Department department);
     }
 }

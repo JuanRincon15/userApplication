@@ -4,7 +4,7 @@ namespace userApplication.Application.ports.output
 {
     public interface CountryPersistencePort
     {
-        public Country saveCountryBD(Country country);
+        public Task<Country> saveCountryBD(Country country);
         
     }
 }
